@@ -60,6 +60,11 @@ export FABRIC_CFG_PATH=${PWD}/config/
 ```
 **More exports may be needed**
 
+4. Create a channel:
+```bash
+./network.sh up createChannel -c mychannel -ca
+```
+
 ### 4.  Deploy the Chaincode
 
 1. Deploy the chaincode to the network:
